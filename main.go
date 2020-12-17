@@ -9,5 +9,6 @@ func main() {
 }
 
 func DoThis(num int) {
+	num += 3
 	fmt.Print(num * num)
 }
